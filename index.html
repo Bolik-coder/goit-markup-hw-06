@@ -376,7 +376,30 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div>            
+
+                
+                <form class="subscribe-form">
+                    <p class="contact-form-title-foot"><b>Subscribe</b></p>
+                    <div class="subscribe-wrap">
+                        <label>
+                            <input type="email"
+                            class="subsribe-area"
+                            placeholder="E-mail"
+                            name="user_email" 
+                            required
+                            >
+                        </label>
+
+                        <button type="submit" class="subscribe-btn">
+                            Subscribe
+                            <svg class="subscride-icon" width="24px" height="24px">
+                                <use href="./images/Background/icons.svg#icon-Fly"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                
             </div>
 
         </footer>
@@ -388,10 +411,87 @@
                         <use href="./images/Background/icons.svg#close-btn"></use>
                     </svg>
                 </button>
+
+                <form class="contat-form">
+                    <div>
+                        <p class="contact-form-title"><b>Leave your contacts and we will call you back</b></P>
+                    </div>
+                        <label>
+                            <div class="modal-field">
+                                <span class="label-text">Name</span>
+                                    <div class="input-wrap">
+                                        <input                        
+                                        type="text" 
+                                        class="contact-form-imput" 
+                                        name="user_name" 
+                                        required
+                                        minlength="3"
+                                        >
+                                        <svg class="modal-icon" width="18px" height="24px">
+                                            <use href="./images/Background/icons.svg#icon-person"></use>
+                                        </svg>
+                                    </div>
+                            </div>
+                        </label>
+
+                    <label>
+                        <div class="modal-field">
+                            <span class="label-text">Phone</span>
+                                <div class="input-wrap">
+                                    <input 
+                                    type="tel" 
+                                    class="contact-form-imput" 
+                                    name="user_phone" 
+                                    required
+                                    >
+                                    <svg class="modal-icon" width="18px" height="24px">
+                                        <use href="./images/Background/icons.svg#icon-phone"></use>
+                                    </svg>
+                                </div>
+                        </div>
+                    </label>
+
+                    <label>
+                        <div class="modal-field">
+                            <span class="label-text">Email</span>
+                            <div class="input-wrap">
+                                <input 
+                                type="email" 
+                                class="contact-form-imput"
+                                name="user_email" 
+                                required
+                                >
+                                <svg class="modal-icon" width="18px" height="24px">
+                                    <use href="./images/Background/icons.svg#icon-email"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </label>
+
+                    <label>
+                
+                        <span class="label-text">Comment</span>
+                        <textarea name="" class="contact-form-massage" placeholder="Text input"></textarea>
+                    </label>
+                    <div class="checkbox-area">
+                        
+                        <input id="chek" type="checkbox">
+                        <label for="chek" class="checkbox-text">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                    </div>
+
+                    <div class="contact-btn-wrap">
+                    <button type="submit" class="contact-btn">Send</button>
+                    </div>
+
+                </form>
+
             </div>
 
         </div>
 
     <script src="./js/modal.js"></script>
+
+        
+
 </body>
 </html>
