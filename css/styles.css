@@ -514,6 +514,26 @@ padding-top: 132px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 1);
     color: #FFFFFF;
+    outline: transparent;
+    transition-property: border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
+}
+
+.subsribe-area:focus {
+    border-color: #31D0AA;
+}
+
+.subsribe-area::placeholder {
+    color: #FFFFFF;
+    Font size: 12px
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
+}
+
+.subsribe-area:focus::placeholder {
+    color: #31D0AA;
 }
 
 .subscribe-wrap {
