@@ -665,7 +665,6 @@ padding-top: 132px;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms linear;
     padding: 72px 24px 24px 24px;
-    
 }
 
 .close-btn {
@@ -754,7 +753,14 @@ padding-top: 132px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 16px;    
+    margin-right: auto;
+    margin-left: auto;     
+}
+
+.contact-form-title-wrap {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-btn-wrap {
@@ -786,7 +792,7 @@ padding-top: 132px;
 
 .label-text {
     font-weight: 400;
-    font-style: 12px;
+    font-size: 12px;
     line-height: 14px;
     display: block;
     color: #8E8F99;
